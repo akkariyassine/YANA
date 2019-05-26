@@ -1,0 +1,37 @@
+<!--Navbar-->
+<div class="color">
+  <header class="intro-header">
+    <mdb-navbar
+      SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar "
+      class="height"
+      [containerInside]="false"
+    >
+      <!-- Navbar brand -->
+      <mdb-navbar-brand
+        ><a class="navbar-brand" routerLink="/">
+          <p class="font-weight-bold font-italic">YANA</p>
+        </a></mdb-navbar-brand
+      >
+
+      <!-- Collapsible content -->
+      <links>
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item " routerLink="/login">
+            <a class="nav-link waves-light" mdbWavesEffect
+              ><mdb-icon fas icon="sign-in-alt"></mdb-icon> Sing in
+            </a>
+          </li>
+          <li class="nav-item" routerLink="/register">
+            <a class="nav-link waves-light" mdbWavesEffect
+              ><mdb-icon fas icon="user-plus"></mdb-icon>Sing up</a
+            >
+          </li>
+        </ul>
+        <!-- Links -->
+      </links>
+      <!-- Collapsible content -->
+    </mdb-navbar>
+    <!--/.Navbar-->
+  </header>
+</div>

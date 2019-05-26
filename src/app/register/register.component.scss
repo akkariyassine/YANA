@@ -1,0 +1,58 @@
+.intro-header {
+}
+.intro-2 {
+  background: url("https://static.timesofisrael.com/fr/uploads/2017/12/Photo-d%E2%80%99illustration-d%E2%80%99une-main-d%E2%80%99une-personne-a%CC%82ge%CC%81e-Pablo-K-iStock-par-Getty-Images.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+.view {
+}
+.btn .fa {
+  margin-left: 3px;
+}
+.top-nav-collapse {
+  background-color: #424f95 !important;
+}
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+h6 {
+  line-height: 1.7;
+}
+.rgba-gradient .full-bg-img {
+  height: 100%;
+
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.6),
+    rgba(29, 210, 177, 0.6) 100%
+  );
+}
+@media (max-width: 450px) {
+  .modal-content {
+    position: relative;
+  }
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+h1.h1-responsive.wow.fadeInLeft {
+  width: 402px;
+}
+button.waves-light.btn.btn-default {
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.6),
+    rgba(29, 210, 177, 0.6) 100%
+  );
+}
+h4 {
+  color: gray;
+}
