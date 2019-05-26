@@ -6,6 +6,12 @@
   background-size: cover;
 }
 .view {
+  height: 105vh !important;
+  position: fixed;
+  height: 110vh;
+  width: 100%;
+  top: -25px;
+  /* overflow-x: visible; */
 }
 .btn .fa {
   margin-left: 3px;
@@ -41,6 +47,11 @@ h6 {
     margin-right: 1rem;
     margin-left: 1rem;
   }
+  .form-row > [class*="col-"] {
+    margin-top: -5vh;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 }
 
 h1.h1-responsive.wow.fadeInLeft {
@@ -55,4 +66,27 @@ button.waves-light.btn.btn-default {
 }
 h4 {
   color: gray;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  top: 30vh !important;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.divcontent {
+  position: relative;
+  top: 25vh;
+  padding: 0 6vh 0 6vh;
+}
+.md-form label.active {
+  color: white;
 }
